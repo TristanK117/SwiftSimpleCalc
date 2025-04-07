@@ -100,7 +100,6 @@ func calculate(_ arg: String) -> Int { // return a single string
         parts.append(String(item))
     }
 
-    // Call your existing array-based calculator
     return calculate(parts)
 }
 
